@@ -21,9 +21,38 @@ h2 {
 
 }
 
-nav {
-  text-align: left;
+h3 {
+  margin: 0;
+  font-size: 1.9em;
+  font-family: 'Playfair Displa', serif;
+  color: gray;
+  padding: 10px;
+
+  opacity: 1;
+
+
 }
+
+h4{
+  margin: 0;
+  font-size: 1.7em;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+
+p{
+  margin: 0;
+  font-size: 24px;
+  padding:10px;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
 
 ul {
   padding-left: 10px;
@@ -31,7 +60,7 @@ ul {
   text-align: inherit;
 }
 
-a {
+.sidebar a {
   padding: 5px;
   text-decoration: none;
   font-size: 1.7em;
@@ -40,6 +69,15 @@ a {
   text-align: center;
   font-weight: lighter;
 
+}
+
+p a {
+  text-decoration: none;
+  color: gray;
+}
+
+p a:hover{
+  color: #BCD1E2
 }
 
 /* body {
@@ -56,15 +94,10 @@ a {
 
 
 .main {
+  padding-top: 150px;
   margin-left: 0px;
-  transition: .5s;
+  transition: margin-top .5s;
   padding: 0px;
-}
-
-img{
-  width: 99%;
-  height: 100%;
-  padding: 15px;
 }
 
 .openbtn {
@@ -82,13 +115,15 @@ img{
 }
 
 .textbox{
-  background-color: #B3CEE2;
-  height: 500px;
-  width: 1000px;
+  background-color: #BDC3C7;
+
+  width: 80%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 20px;
   transition: 0.5s;
-  opacity: .75;
+  opacity: .7;
+  display: block;
+  overflow: auto;
 }
 
 .appbox{
@@ -106,6 +141,8 @@ img{
 
 iframe{
   border: 0px;
+  width: 100%;
+  height: 500px
 }
 
 
@@ -121,6 +158,7 @@ iframe{
   background-color: #EAEAEA;
   overflow-y: hidden;
   transition: 0.5s;
+  opacity: 0.75;
 
 }
 
