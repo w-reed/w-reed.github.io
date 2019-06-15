@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-
 <html lang = 'en'>
   <head>
     <meta charset="utf-8">
-    <title>Rshiny</title>
     <link rel="stylesheet" href="css/style.css">
-    <div class="main">
-      <h1>Rshiny Apps</h1>
-      <h2>Temporal Genetic Structure Simulation </h2>
-      <iframe src="https://wreed.shinyapps.io/TGSSim/" width="1300" height="900"></iframe>
-    </div>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap" rel="stylesheet">
+    <title>Will Reed</title>
 
-    <div class="sidebar">
-      <h2>menu</h2>
-        <nav>
-          <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/about">about</a></li>
-            <li><a href="/Rshiny">Rshiny</a></li>
-            <li><a href="/photos">photos</a></li>
-          </ul>
-        </nav>
+
 
 
   </head>
+
+
+  <body style = "background-image: url(https://w-reed.github.io/imgs/duskyGrouse.JPG); width:100%; height:100%; background-size: cover; background-attachment:fixed;" >
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <ul>
+        <a href="/">home</a>
+        <a href="/about">about</a>
+        <a href="/Rshiny">Rshiny</a>
+        <a href="/photos">photos</a>
+      </ul>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">↓</button>
+    <div class="appbox">
+       <iframe src="https://wreed.shinyapps.io/TGSSim/" width="1000" height="500"></iframe>
+    </div>
+    <div class="appbox">
+
+    </div>
+    <div class="appbox">
+
+    </div>
+  </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.height = "80px";
+    document.getElementById("main").style.marginTop = "100px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.height = "0";
+    document.getElementById("main").style.marginTop= "0";
+  }
+  </script>
+
+  </body>
+
 </html>
