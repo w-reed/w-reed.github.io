@@ -1,14 +1,14 @@
 h1 {
   padding-left: 10px;
   font-size: 3em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
 h2 {
   padding-left: 10px;
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.9em;
+  font-family: 'Playfair Display', serif;
   color: gray;
 
 
@@ -25,12 +25,12 @@ ul {
 }
 
 a {
+  padding: 5px;
   text-decoration: none;
   font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: gray;
   text-align: inherit;
-  font-style: italic;
   font-weight: lighter;
 }
 
