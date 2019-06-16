@@ -1,11 +1,11 @@
 function openNav() {
   document.getElementById("sidebar").style.height = "63px";
-  document.getElementById("main").style.marginTop = "83px";
+  document.getElementById("textbox").style.marginTop = "83px";
 }
 
 function closeNav() {
   document.getElementById("sidebar").style.height = "0";
-  document.getElementById("main").style.marginTop= "0";
+  document.getElementById("textbox").style.marginTop= "0";
 }
 
 function change() {
