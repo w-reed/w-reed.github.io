@@ -105,6 +105,7 @@ p a:hover{
 }
 
 .openbtn {
+  border-radius: 3px;
   position: fixed;
   top: 10px;
   right: 10px;
@@ -120,7 +121,7 @@ p a:hover{
 
 .textbox{
   background-color: #BDC3C7;
-
+  border-radius: 3px;
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
@@ -131,6 +132,7 @@ p a:hover{
 }
 
 .appbox{
+  border-radius: 3px;
   width: 80%;
   margin: 0 auto;
   margin-top: 100px;
@@ -141,11 +143,12 @@ p a:hover{
 }
 
 .projbox{
+  border-radius: 3px;
   background-color: #BDC3C7;
   width: 80%;
   height: 50px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   transition: 0.5s;
   opacity: 1;
   display: block;
@@ -154,8 +157,17 @@ p a:hover{
 }
 
 
-.projbox:hover{
-  height: 300px;
+.projbox .readmore {
+  position: relative;
+  top: -45px;
+  right: 10px;
+  width: 30px;
+  font-size: 25px;
+  border-radius: 3px;
+  float: right;
+  background-color: gray;
+  border: none;
+
 }
 
 
@@ -167,6 +179,7 @@ iframe{
 
 
 .sidebar {
+  border-radius: 3px;
   padding: 0px;
   float: left;
   width: 100%;
