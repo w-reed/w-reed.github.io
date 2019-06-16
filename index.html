@@ -14,8 +14,7 @@
 
   <body style = "background-image: url(https://w-reed.github.io/imgs/RMNP.jpg); width:100%; height:100%; background-size: cover; background-attachment:fixed;">
 
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div id="sidebar" class="sidebar">
       <ul>
         <a href="/">home</a>
         <a href="/about">about</a>
@@ -25,7 +24,7 @@
   </div>
 
   <div id="main">
-    <button class="openbtn" onclick="openNav()">↓</button>
+    <button class="openbtn" id = "openbtn" onclick="change(); openNav()"">↓</button>
     <div class="textbox">
       <h3>Will Reed</h3>
       <p>I am a PhD student at the University of Colorado, Boulder in the department of <a href="https://www.colorado.edu/ebio/">Ecology and Evolutionary Biology</a>.</p>
@@ -38,17 +37,7 @@
   </div>
 
 
-  <script>
-  function openNav() {
-    document.getElementById("mySidebar").style.height = "80px";
-    document.getElementById("main").style.marginTop = "100px";
-  }
-
-  function closeNav() {
-    document.getElementById("mySidebar").style.height = "0";
-    document.getElementById("main").style.marginTop= "0";
-  }
-  </script>
+  <script src="js/script.js"></script>
 
   </body>
 
