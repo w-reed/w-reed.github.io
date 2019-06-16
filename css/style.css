@@ -51,6 +51,10 @@ p{
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   text-decoration: none;
+  display: block;
+  float: none;
+
+
 }
 
 
