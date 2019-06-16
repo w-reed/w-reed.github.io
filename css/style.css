@@ -146,9 +146,9 @@ p a:hover{
   border-radius: 3px;
   background-color: #BDC3C7;
   width: 80%;
-  height: 50px;
+  height: 55px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 85px;
   transition: 0.5s;
   opacity: 1;
   display: block;
@@ -159,14 +159,15 @@ p a:hover{
 
 .projbox .readmore {
   position: relative;
-  top: -45px;
-  right: 10px;
+  top: -44px;
+  right: 14px;
   width: 30px;
   font-size: 25px;
   border-radius: 3px;
   float: right;
   background-color: gray;
   border: none;
+  text-align: center;
 
 }
 

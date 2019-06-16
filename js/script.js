@@ -29,7 +29,7 @@ function expand(yy){
 }
 
 function contract(yy){
-  document.getElementById(yy).style.height = "50px";
+  document.getElementById(yy).style.height = "55px";
 }
 
 function reply_click()
