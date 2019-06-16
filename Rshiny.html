@@ -14,8 +14,7 @@
 
   <body style = "background-image: url(https://w-reed.github.io/imgs/duskyGrouse.JPG); width:100%; height:100%; background-size: cover; background-attachment:fixed;" >
 
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div id="sidebar" class="sidebar">
       <ul>
         <a href="/">home</a>
         <a href="/about">about</a>
@@ -25,7 +24,7 @@
   </div>
 
   <div id="main">
-    <button class="openbtn" onclick="openNav()">↓</button>
+    <button id = "openbtn" class="openbtn" onclick="change(); openNav()">↓</button>
     <div class="appbox">
        <iframe src="https://wreed.shinyapps.io/TGSSim/"></iframe>
     </div>
