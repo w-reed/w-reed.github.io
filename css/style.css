@@ -140,7 +140,23 @@ p a:hover{
   overflow: auto;
 }
 
+.projbox{
+  background-color: #BDC3C7;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  transition: 0.5s;
+  opacity: 1;
+  display: block;
+  overflow: hidden;
+  opacity: 0.75;
+}
 
+
+.projbox:hover{
+  height: 300px;
+}
 
 
 iframe{
