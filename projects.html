@@ -26,8 +26,14 @@
 
   <div id="main">
     <button class="openbtn" id = "openbtn" onclick="change(); openNav()">↓</button>
-    <div class="projbox" id = "projbox">
+    <div class="projbox" id = "one">
       <h3>Echinacea Project</h3>
+      <button class = "readmore" id = '1' onclick="change2(this.id); expand(this.parentNode.id)">+</button>
+      <p>My first experience in the world of research came with an oppurtunity with the Echinacea project studying habitat fragmentation in the tall grass prairie.</p>
+    </div>
+    <div class="projbox" id = "two">
+      <h3 id = demo >Healthy Prairies Project</h3>
+      <button class = "readmore" id = '2'  onclick="change2(this.id); expand(this.parentNode.id);">+</button>
       <p>My first experience in the world of research came with an oppurtunity with the Echinacea project studying habitat fragmentation in the tall grass prairie.</p>
     </div>
   </div>
